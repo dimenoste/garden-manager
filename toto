@@ -1,0 +1,13 @@
+DonutCalculationError
+Traceback (most recent call last):
+  File "/home/user/projects/garden-manager/logger.py", line 21, in <module>
+    donuts_per_guest = donuts / guests
+                       ~~~~~~~^~~~~~~~
+ZeroDivisionError: division by zero
+2026-04-07 17:11 - ERROR - DonutCalculationError
+Traceback (most recent call last):
+  File "/home/user/projects/garden-manager/logger.py", line 21, in <module>
+    donuts_per_guest = donuts / guests
+                       ~~~~~~~^~~~~~~~
+ZeroDivisionError: division by zero
+2026-04-07 17:21 - WARNING - Watch out!
