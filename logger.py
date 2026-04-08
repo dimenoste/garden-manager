@@ -1,6 +1,5 @@
 import logging
 
-import logging
 
 # 1 Create your custom logger
 parent = logging.getLogger("app")
@@ -19,4 +18,4 @@ parent.addHandler(consolehandler)
 
 print(parent.handlers)
 
-parent.warning("Watch out!")    
+parent.warning("Watch out!") 
