@@ -28,7 +28,6 @@ class EventBus:
 class WateringSystem:
     tank_level = 0
 
-    @classmethod
     def water_plant(cls):
         if cls.tank_level < 20:
             raise WaterError("Not enough water")
